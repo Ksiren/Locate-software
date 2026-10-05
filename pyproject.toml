@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "locate-software"
+dynamic = ["version"]
+description = "REST API бюро находок"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.142.2",
+    "pydantic==2.13.5",
+    "uvicorn==0.54.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx2==2.13.1",
+    "pytest==9.1.1",
+    "ruff==0.16.10",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "locate.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
