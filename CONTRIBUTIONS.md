@@ -5,20 +5,20 @@
 | Результат | Вклад | Проверяемый след |
 | --- | --- | --- |
 | SR / T / D / код / другой полученный результат | Что конкретно сделал участник | Прямая ссылка на раздел, файл, commit или PR |
-|3 SR | Проверка авторизации на сервере |(security_requirements)[SECURITY_REQUIREMENTS.md]|
-| пункты 1, 2, 4 | |(Project)[/PROJECT.md] |
+|3 SR | Проверка авторизации на сервере |( [security_requirements](SECURITY_REQUIREMENTS.md)|
+| пункты 1, 2, 4 | |[Project](/PROJECT.md) |
 | Подготовил архитектуру проекта | |  |
-| Реализация HealthChek| | (test_health)[/tests/api/test_health.py] |
+| Реализация HealthChek| | [test_health](/tests/api/test_health.py) |
 
 ## M2 i
 
 | Результат | Вклад | Проверяемый след |
 | --- | --- | --- |
-| пункты 3, 5, 7 |  |(Project)[/PROJECT.md] |
+| пункты 3, 5, 7 |  |[Project](/PROJECT.md)  |
 
 ## M3 ir
 
 | Результат | Вклад | Проверяемый след |
 | --- | --- | --- |
-|3 SR | Проверка авторизации на сервере | (security_requirements)[SECURITY_REQUIREMENTS.md]|
-| пункты 6, 8, 9 | |(Project)[/PROJECT.md] |
+|3 SR | Проверка авторизации на сервере | [security_requirements](SECURITY_REQUIREMENTS.md)|
+| пункты 6, 8, 9 | |[Project](/PROJECT.md)  |
